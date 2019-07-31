@@ -1,0 +1,34 @@
+{
+    "name": "reedware/nova-partition-metric-style-fix",
+    "description": "Fixes the legend for parition metrics when more than 5 values appear.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "partition",
+        "metric",
+        "style",
+        "theme"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/support": ">=5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reedware\\NovaPartitionMetricStyleFix\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Reedware\\NovaPartitionMetricStyleFix\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
