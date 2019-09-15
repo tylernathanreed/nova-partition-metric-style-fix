@@ -13,3 +13,7 @@
 .card .max-h-90px ul li:nth-child(n+11) {
   display: none;
 }
+
+.card .ct-chart.mr-4 {
+    margin-right: 0;
+}
